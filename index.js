@@ -4,7 +4,7 @@
 
 const userMap = {
   carey: 'Carey',
-  skym887: 'Danny',
+  'dev.danny.moon': 'Danny',
   dlsrllsla: 'sabo'
 }
 
