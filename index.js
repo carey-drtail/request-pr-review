@@ -2,6 +2,12 @@
 // Copyright (c) 2024-present NAVER Corp.
 // Apache-2.0
 
+const userMap = {
+  carey: 'Carey',
+  skym887: 'Danny',
+  dlsrllsla: 'sabo'
+}
+
 const core = require("@actions/core");
 const axios = require("axios");
 
@@ -163,7 +169,7 @@ class User {
     }
 
     get name() {
-        return this._email ? this._email.split("@")[0] : null;
+        return this._email ? userMap[this._email.split("@")[0]] : null;
     }
 
     get requestedPRs() {
