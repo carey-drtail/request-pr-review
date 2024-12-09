@@ -5,7 +5,8 @@
 const userMap = {
   carey: 'Carey',
   'dev.danny.moon': 'Danny',
-  dlsrllsla: 'sabo'
+  dlsrllsla: 'sabo',
+  trooioi9545: 'maggie'
 }
 
 const core = require("@actions/core");
